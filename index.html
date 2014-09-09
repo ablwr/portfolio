@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
   <head>
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
@@ -12,12 +12,38 @@
 
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js"></script>
     <script src="js/script.js">
     </script>
 
   </head>
   <body>
 
+<div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+    </div>
+
+<div class="container center-block">
+      <div class="row">
+        <div class="col-md-12 col-xs-12 text-center">
+          <h1>Hello, this is the Hall of Projects</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 col-xs-12">
+      <img src="img/karaoke1.png" class="img-responsive" alt="Responsive image">
+        </div>
+
+
+      </div> <!-- row -->
+
+
+
+<!-- pre-switching to angular -->
+    <br><br><br><br><br>
     <div class="container center-block">
       <div class="row">
         <div class="col-md-12 col-xs-12 text-center">

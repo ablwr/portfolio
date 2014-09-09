@@ -1,0 +1,17 @@
+<div class="portfolios view">
+    <div class="container">
+        <header>
+            <h3>portfolios</h3>
+        </header>
+        <div>
+            <div class="row cardContainer">
+                <div class="span3 card" data-ng-repeat="portfolio in portfolios | orderBy:'id'">
+                    <button class="btn close cardClose" data-ng-click="deletePortfolio(portfolio.id)">&times;</button>
+                    <div class="cardHeader">{{portfolio.name}}</div>
+                    <div class="cardBody">{{portfolio.img}}</div>
+                    <div class="cardBody">{{portfolio.description}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
