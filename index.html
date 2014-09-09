@@ -31,15 +31,9 @@
       <div class="row text-center">
         <div class="col-md-4 col-xs-12">
           <div data-ng-controller="PortfoliosController">
-            <div class="row text-center">
-              <div class="col-md-4 col-xs-12">
-
-                <div data-ng-repeat="portfolio in portfolios">
-                  <img src="{{portfolio.img}}" class="img-responsive" alt="Responsive image">
-                  <p>{{portfolio.name}}<br />{{portfolio.description}}</p>
-
-                </div>
-              </div>
+            <div data-ng-repeat="portfolio in portfolios">
+              <img src="{{portfolio.img}}" class="img-responsive" alt="Responsive image">
+              <p>{{portfolio.name}}<br />{{portfolio.description}}</p>
             </div>
           </div>
         </div>
