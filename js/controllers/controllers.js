@@ -6,5 +6,4 @@ app.controller('PortfoliosController', function ($scope, portfoliosService) {
         $scope.portfolios = portfoliosService.getPortfolios();
     }
 
-    };
 });

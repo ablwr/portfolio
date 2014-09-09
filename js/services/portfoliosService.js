@@ -17,7 +17,7 @@ app.service('portfoliosService', function () {
             id: 1, name: 'Flatiron Karaoke', img: 'img/karaoke1.png', description: 'Kiss from a Rose...'
         },
         {
-            id: 2, name: 'Flatiron Karaoke 2', img: 'img/karaoke1.png', description: 'Kiss from a Rose...'
+            id: 2, name: 'Scopitone', img: 'img/scopitone.png', description: 'Something else'
         }
 
     ];
