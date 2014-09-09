@@ -1,4 +1,4 @@
-app.controller('PortfoliosController', function ($scope) {
+app.controller('PortfoliosController', function ($scope, portfoliosService) {
 
     init();
 

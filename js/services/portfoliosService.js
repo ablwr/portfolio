@@ -14,7 +14,10 @@ app.service('portfoliosService', function () {
 
     var portfolios = [
         {
-            id: 1, name: 'Flatiron Karaoke', img: 'img/karaoke1.png', description: 'Kiss from a Rose...',
+            id: 1, name: 'Flatiron Karaoke', img: 'img/karaoke1.png', description: 'Kiss from a Rose...'
+        },
+        {
+            id: 2, name: 'Flatiron Karaoke 2', img: 'img/karaoke1.png', description: 'Kiss from a Rose...'
         }
 
     ];
