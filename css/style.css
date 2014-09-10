@@ -3,7 +3,6 @@ body {
 }
 
 .img-resp {
-max-width: 90%;
-
+  max-width: 90%;
   padding-bottom: 25px;
 }
