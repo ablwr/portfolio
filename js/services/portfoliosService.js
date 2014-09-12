@@ -33,7 +33,7 @@ app.service('portfoliosService', function () {
         },
         {
             id: 3, 
-            name: 'ffmproviser', 
+            name: 'ffmprovisor', 
             img: 'img/ffmprovisor.png',
             url: 'http://ffmprovisor.herokuapp.com',
             description: 'One-page guided web form that assists users in making FFMpeg commands.',
