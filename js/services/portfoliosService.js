@@ -17,7 +17,7 @@ app.service('portfoliosService', function () {
             id: 1, 
             name: 'Flatiron Karaoke', 
             img: 'img/karaoke1.png',
-            url: 'ablwr.github.io/flatiron-karaoke',
+            url: 'http://ablwr.github.io/flatiron-karaoke',
             description: 'Popcorn.js app that syncs song lyrics and other media with video.',
             longer_description: '',
             tech_used: 'Popcorn.js, Textillate.js'
